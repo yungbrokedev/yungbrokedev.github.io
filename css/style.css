@@ -531,8 +531,8 @@ li{
 	}
 		.navigation__item {
 		    -webkit-box-flex: 1;
-		        -ms-flex: 1 240px;
-		            flex: 1 240px;
+		        -ms-flex: 1 200px;
+		            flex: 1 200px;
 		}
 
 
