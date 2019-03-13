@@ -239,7 +239,10 @@ li{
 	    margin:0 0 55px;
 	}
 
-
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
 
 .owl-dots {
     width: 21px;
