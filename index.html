@@ -1,369 +1,1799 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Test html/css application for PurrWeb</title>
-	<link rel="stylesheet" href="css/style.css">
-	<script src="js/jquery.min.js"></script>
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-</head>
-<body>
-	
-
-	<header class="header">
-		<div class="header__top">
-			<div class="container">
-				<div class="flex justify center">
-					<div class="logo">
-						<a href="#" class="logo__img">
-							<img src="img/logo.png" alt="">
-						</a>
-					</div>
-					<ul class="menu flex">
-						<li class="li current"><a href="#">Home</a></li>
-						<li class="li"><a href="#">Products</a></li>
-						<li class="li"><a href="#">Services</a></li>
-						<li class="li"><a href="#">Resources</a></li>
-						<li class="li"><a href="#">About</a></li>
-						<li class="li"><a href="#">Contact Us</a></li>
-					</ul>
-					<div class="burger">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="header__bottom">
-			<div class="container">
-				<div class="slider owl-carousel owl-theme">
-					<div class="slide flex justify">
-							<div class="slide__left">
-								<h3 class="slide__title">Device Autentication</h3>
-								<p class="slide__text">
-	SALT Group is a world leader in authentication and security. We have a range of services to improve user authentication. Discover the possibilities with SALT.
-								</p>
-								<p class="slide__button">
-									<a href="#" class="button">Get started</a>
-								</p>
-							</div>
-							<div class="slide__right flex center">
-								<img src="img/smart1.png" alt="" class="slide__img">
-							</div>
-					</div>
-
-					<div class="slide flex justify">
-							<div class="slide__left">
-								<h3 class="slide__title">User Authentication</h3>
-								<p class="slide__text">
-	Verify the identity of users for access control with contemporary biometric connected MFA security tokens.
-								</p>
-								<p class="slide__button">
-									<a href="#" class="button">Get started</a>
-								</p>
-							</div>
-							<div class="slide__right flex center">
-								<img src="img/smart1.png" alt="" class="slide__img">
-							</div>
-					</div>
-					<div class="slide flex justify">
-							<div class="slide__left">
-								<h3 class="slide__title">Transaction Autentication</h3>
-								<p class="slide__text">
-	High assurance out-of-band authentication of high impact transactions and instructions initiated through electronic service delivery channels. Audit trail of verification for non-repudiation. Fraud protection against man-in-the-middle and browser malware.
-								</p>
-								<p class="slide__button">
-									<a href="#" class="button">Get started</a>
-								</p>
-							</div>
-							<div class="slide__right flex center">
-								<img src="img/smart1.png" alt="" class="slide__img">
-							</div>
-					</div>
-				</div>
-
-				<div class="button-bottom flex">
-					<a href="#working" class="button-bottom__button">Find out more</a>
-				</div>
-			</div>
-		</div>
-	</header>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>frontend</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+        <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.min.css">
 
 
-	<main>
-		
-		<section class="counts">
-			<div class="container">
-				<div class="counts__wrap flex px">
-					<div class="counts-item">
-						<div class="counts-item__count">
-							<span>126,300</span>
-						</div>
-						<div class="counts-item__title">
-							 <span class="">Identity Theft Cases Reported in Australia</span>
-						</div>
-					</div>
+    </head>
+    <body>
+    <div class="main-wrapper">
+        <header class="header">
+    <div class="container">
+        <div class="header-wrap">
+            <div class="header-wrap__logo">
+            </div>
+            <ul class="header-wrap__nav nav">
+                <li class="nav__li"><a class="nav__link" href="#About">About</a></li>
+                <li class="nav__li"><a class="nav__link" href="#HowItWorks">How it works</a></li>
+                <li class="nav__li"><a class="nav__link" href="#Reviews">Reviews</a></li>
+                <li class="nav__li"><a class="nav__link nav__button js-call-modal" href="#" data-modal-id="form">Get my discount</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+        <section class="intro-section">
+    <div class="container">
 
-					<div class="counts-item">
-						<div class="counts-item__count">
-							<span>$20.1bn</span>
-						</div>
-						<div class="counts-item__title">
-							 <span class="">Online Transactions per annum by Australians</span>
-						</div>
-					</div>
+        <div class="intro-wrap">
 
-					<div class="counts-item">
-						<div class="counts-item__count">
-							<span>45,511</span>
-						</div>
-						<div class="counts-item__title">
-							 <span class="">Online Fraud Cases Reported in Australia</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="working" id="working">
-			<div class="container">
-				<div class="working__header">
-					<span>What we do</span>
-				</div>
-				<div class="working__wrap flex px">
+            <div class="intro__left intro-block">
+                <h2 class="intro-block__title">Say goodbye to eye<br>strain & stress</h2>
 
-					<div class="workink-item">
-						<div class="working-item__image">
-							<img src="img/w1.png" alt="">
-						</div>
-						<div class="working-item__title">
-							 <span>Device authentication</span>
-						</div>
-						<div class="working-item__description">
-							<p>
-Hardware-based device fingerprinting resilient to cloning, malware and device jailbreak/root. Hardware-level control over the displayed UI independent of the device operating system. Hardware-level data protection.
-							</p>
-						</div>
-					</div>
-					<div class="workink-item">
-						<div class="working-item__image">
-							<img src="img/w2.png" alt="">
-						</div>
-						<div class="working-item__title">
-							 <span>User Authentication</span>
-						</div>
-						<div class="working-item__description">
-							<p>
-Verify the identity of users for access control with contemporary biometric connected MFA security tokens.
-							</p>
-						</div>
-					</div>
+                <div class="intro-block__price intro-price">
+                    <del class="intro-price__old">Was US $ 54.00</del>
+                    <div class="intro-price__new">Now just $27.00</div>
+                </div>
+
+                <ul class="intro-block__list icon-list">
+                    <li>FREE shipping on all orders</li>
+                    <li>Guaranteed 100% product authenticity</li>
+                    <li>Full-refund policy (no questions asked)</li>
+                    <li>The lowest price you’ll find</li>
+                </ul>
+
+                <a href="#" class="button button-red button-emoji js-call-modal" data-modal-id="form">Claim my 50% discount</a>
+
+            </div>
 
 
-					<div class="workink-item">
-						<div class="working-item__image">
-							<img src="img/w3.png" alt="">
-						</div>
-						<div class="working-item__title">
-							 <span>Transaction Authentication</span>
-						</div>
-						<div class="working-item__description">
-							<p>
-High assurance out-of-band authentication of high impact transactions and instructions initiated through electronic service delivery channels. Audit trail of verification for non-repudiation. Fraud protection against man-in-the-middle and browser malware.
-							</p>
-						</div>
-					</div>
+            <div class="intro__center">
+                <a href="#" class="js-call-modal" data-modal-id="video">
+                    <figure class="intro-video">
+                        <picture>
+                            <source srcset="img/intro-video__cover.webp" type="image/webp">
+                            <img src="img/intro-video__cover.jpg" alt="">
+                        </picture>
+                    </figure>
+                </a>
+            </div>
 
-					<div class="workink-item">
-						<div class="working-item__image">
-							<img src="img/w4.png" alt="">
-						</div>
-						<div class="working-item__title">
-							 <span>Contemporary authentication methods</span>
-						</div>
-						<div class="working-item__description">
-							<p>
- Echidna authentication server to enable adaptive risk-based approach to security through a range of methods for different levels of authentication assurance from SMS OTPs, Challenge/Response, to more contemporary QR code signing and advanced connected mobile security tokens capable of transaction signatures with dynamic linking of the transaction context and addition of PIN, Fingerprint and other biometrics.
-							</p>
-						</div>
-					</div>
+            <div class="intro__right ">
 
+                <div class="intro-review">
+                    <div class="intro-review__message">
+                        I love it! I’ve never thought I would be so comfy with these glasses.
+                        No headaches anymore!
+                    </div>
+                    <figure class="intro-review__author">
+                        <picture>
+                            <source srcset="img/intro-userpic.webp" type="image/webp">
+                            <img src="img/intro-userpic.jpg" alt="">
+                        </picture>
+                        <span>- William B., UK</span>
+                    </figure>
 
-					<div class="workink-item">
-						<div class="working-item__image">
-							<img src="img/w5.png" alt="">
-						</div>
-						<div class="working-item__title">
-							 <span>HSM Solutions</span>
-						</div>
-						<div class="working-item__description">
-							<p>
-Reseller of Thales nShield HSMs with professional services and subject matter expertise in HSMs, key ceremony procedures, and SEE code development.
-							</p>
-						</div>
-					</div>
+                    <div class="intro-review__rating intro-rating">
+                        <div class="intro-rating__medium">
+                            <strong>4.9</strong>
+                            <span>out of 5</span>
+                        </div>
+                        <div class="intro-rating__customers intro-stars">
+                            <div class="intro-stars__stars stars-rating"><span style="width: 98%"/></div>
+                            <span class="reviews-count">41 customer reviews</span>
+                        </div>
+                    </div>
 
+                </div>
 
-					<div class="workink-item">
-						<div class="working-item__image">
-							<img src="img/w6.png" alt="">
-						</div>
-						<div class="working-item__title">
-							 <span>Cloud & IoT Security</span>
-						</div>
-						<div class="working-item__description">
-							<p>
-Secure the identity and access of users, devices and Internet of Things connecting into the cloud. Support cloud adoption and migration of applications and data into private and public clouds.
-							</p>
-						</div>
-					</div>
+            </div>
 
+        </div>
 
-				</div>
-			</div>
-		</section>
+    </div>
+</section>
+        <section class="features-section">
+    <div class="container">
+        <div class="features-wrap">
+            <div class="feature">
+                <div class="feature__icon"><img src="img/svg/icon-shipping.svg" alt=""></div>
+                <div class="feature__title">Enjoy free shipping on<br>all orders</div>
+            </div>
+            <div class="feature">
+                <div class="feature__icon"><img src="img/svg/icon-authentic.svg" alt=""></div>
+                <div class="feature__title">100% authenticity<br>guaranteed</div>
+            </div>
+            <div class="feature">
+                <div class="feature__icon"><img src="img/svg/icon-return.svg" alt=""></div>
+                <div class="feature__title">Arrange your return for a full<br>refund, no questions asked</div>
+            </div>
+            <div class="feature">
+                <div class="feature__icon"><img src="img/svg/icon-price.svg" alt=""></div>
+                <div class="feature__title">The lowest price on the market<br>guaranteed</div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="product-section" id="About">
+    <div class="container">
 
-		<section class="product">
-			<div class="container">
-				<div class="product__wrap flex justify center">
-					<div class="product-left">
-						<div class="product-left__header">
-							<span>Product Spotlight</span>
-						</div>
-						<div class="prouct-left__description">
-							<p>
-Salt mSign Connected Token is a contemporary mobile security 2FA token for authentication of user identity and verification of transactions independent of the delivery channel that initiated the request.
-							</p>
-						</div>
-						<div class="product-left__button">
-							<a href="#" class="button">More info</a>
-						</div>
-					</div>
-					<div class="product-right">
-						<div class="video flex center">
-							<div class="video__controls">
-								<div class="video__butons">
-									<a href="#" class="video__play"><span class="play-link">Featere video</span></a>
-								</div>
-								<div class="video__name">Msign connected token</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+        <div class="product-wrap product">
 
-		<section class="contacts">
-			<div class="container">
-				<div class="contacts__wrap flex justify center">
-					<div class="contacts__left">
-						<span>Ready to get started?</span>
-					</div>
-					<div class="contacts__right">
-						<a href="#" class="button">Contact us</a>
-					</div>
-				</div>
-			</div>
-		</section>
+            <div class="product-wrap__left product-wrap__block">
 
-	</main>
+                <div class="product-gallery swiper-container">
+                    <div class="swiper-wrapper product-gallery__wrap">
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/0.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/1.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/2.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/3.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/4.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/5.jpg" alt=""></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="product-gallery__pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="product-gallery__prev"></div>
+                    <div class="product-gallery__next"></div>
+
+                    <div class="product-gallery__onsale">-50%</div>
+                </div>
+
+            </div>
 
 
-	<footer class="footer">
-		<div class="container">
-			<div class="footer__wrap flex justify">
-				<div class="footer__left flex">
-					<div class="twitter">
-						<div class="twitter__header flex">
-							<div class="twitter__icon flex center"></div>
-							<div class="twitter__name">
-								<p class="name">@saltgroup</p>
-								<p class="notice">Twitter feed</p>
-							</div>
-						</div>
-						<div class="twitter__content">
-							<div class="tweet">
-								<div class="tweet__content">
-									Experience more with expanded Tweets <a href="#" class="tweet__link">http://testing123.com.au</a>
-								</div>
-								<div class="tweet__date">
-									<span>18 hours ago</span>
-								</div>
-							</div>
-							<div class="tweet">
-								<div class="tweet__content">
-									Experience more with expanded Tweets <a href="#" class="tweet__link">http://testing123.com.au</a>
-								</div>
-								<div class="tweet__date">
-									<span>18 hours ago</span>
-								</div>
-							</div>
-							<div class="tweet">
-								<div class="tweet__content">
-									Our new nest <a href="#" class="tweet__link">http://testing123.com.au</a>
-								</div>
-								<div class="tweet__date">
-									<span>18 hours ago</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer__right">
-					<div class="navigation flex justify">
-						<div class="navigation__item">
-							<div class="navigation-header flex center">
-								<span>Navigation</span>
-							</div>
-							<ul class="navigation__ul">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Products</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Resources</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">Contact Us</a></li>
-							</ul>
-						</div>
+            <div class="product-wrap__right product-wrap__block">
 
-						<div class="navigation__item">
-							<div class="navigation-header flex center">
-								<span>Links</span>
-							</div>
-							<ul class="navigation__ul">
-								<li><a href="#">Disclamer</a></li>
-								<li><a href="#">Legal</a></li>
-								<li><a href="#">Environment policy</a></li>
-								<li><a href="#">Privacy</a></li>
-							</ul>
-						</div>
+                <div class="product__content">
+                    <div class="product__title">
+                        <h1>Anti-blue light = your ultimate power up for gaming</h1>
+                    </div>
+                    <div class="product__rating">
+                        <div class="stars-rating"><span style="width: 98%"/></div>
+                        <a class="reviews-count link" href="#Reviews">41 customer reviews</a>
+                    </div>
+                    <div class="product__description">
+                        <p>
+                            If you spend hours in front of the iPad or computer screen battling monsters, bosses, and opponents, here’s a boss you’ll definitely want to overcome: blue light. Yes, that’s right. Although invisible to the eye, blue light is emitted through screens of smartphones and computers and tablets. Over time, it causes your eyes to feel dry and tired, leading to headaches or difficulty sleeping.
+                        </p>
+                        <p>
+                            What’s its ultimate kryptonyte? Yellow-tinted glasses that filter out its rays. Sleek yet powerful, get these handy specs for extended gaming or working that’s worry-free and safe for your eyes.
+                        </p>
+                    </div>
+                    <div class="product__options">
 
-						<div class="navigation__item">
-							<div class="navigation-header flex center">
-								<span>Contact sales</span>
-							</div>
-							<ul class="navigation__ul">
-								<li><span class="contact-sails">Phone:</span> +7 913 655 47-23</li>
-								<li><span class="contact-sails">Email:</span> vladimir.antonosyan@ya.ru</li>
-							</ul>
-						</div>
+                        <div class="product-variations">
+                            <div class="product-variations__header">
+                                Color<span class="product-variations__data-value">: Black (Clear Glass)</span>
+                            </div>
+                            <ul class="product-variations__listing">
+                                <li class="product-variations__item product-variations__active">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_0-full.jpg" data-src="img/product/_0.jpg" data-value="Black (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_1-full.jpg" data-src="img/product/_1.jpg" data-value="Matte Black (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_2-full.jpg" data-src="img/product/_2.jpg" data-value="Black/Brown (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_3-full.jpg" data-src="img/product/_3.jpg" data-value="Brown (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_4-full.jpg" data-src="img/product/_4.jpg" data-value="Blue (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_5-full.jpg" data-src="img/product/_5.jpg" data-value="Black (Yellow Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_6-full.jpg" data-src="img/product/_6.jpg" data-value="Matte Black (Yellow Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_7-full.jpg" data-src="img/product/_7.jpg" data-value="Black/Brown (Yellow Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_8-full.jpg" data-src="img/product/_8.jpg" data-value="Brown (Yellow Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_9-full.jpg" data-src="img/product/_9.jpg" data-value="Blue (Yellow Glass)">
+                                </li>
+                            </ul>
+                        </div>
 
-					</div>
-				</div>
-			</div>
-		</div>
+                    </div>
+                    <div class="product__price product-price">
+                        <div class="product-price__new">US $27.00</div>
+                        <del class="product-price__old">US $54.00</del>
+                    </div>
+                    <div class="product__controls product-controls">
+                        <div class="product-controls__quantity">
+                            <div class="quantity">
+                                <input class="quantity__input js-quantity_input" type="number" min="1" max="999" step="1" value="1">
+                                <button type="button" class="quantity__button js-quantity_up"></button>
+                                <button type="button" class="quantity__button js-quantity_down"></button>
 
-		<div class="footer__bottom">
-			<div class="container">
-				<div class="copyright">
-					© 2019 Test task for PURRWEB =^._.^=
-				</div>
-			</div>
-		</div>
-	</footer>
-	<script src="js/script.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-</body>
+                            </div>
+                        </div>
+                        <div class="product-controls__button">
+                            <a href="#" class="button button-red js-call-modal" data-modal-id="form">Claim my 50% discount</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+        <section class="section-grid">
+    <div class="container">
+        <div class="grid-wrap">
+
+            <div class="grid-row">
+                <div class="grid-row__L">
+                    <img class="grid-row__image lazyload" data-src="img/glass_1.jpg" alt="">
+                </div>
+                <div class="grid-row__R">
+                    <h3 class="grid-row__title">One Pair of Glasses for Endless Zs at Night.</h3>
+
+                    <div class="grid-row__text">
+                        <p>
+                            Tossing and turning at night? If you game hard or work hard, chances are you are suffering from long-term blue light exposure from your device screens (hey, everyone is on some sort of device today, right?). So block out those harmful rays and discover improved sleep throughout the night, and wake up feeling much better-rested. With our anti-blue light glasses, you can:
+                        </p>
+                    </div>
+                    <ul class="grid-row__list icon-list">
+                        <li>Regulate melatonin production (and fall asleep quicker)</li>
+                        <li>Revert your body back to an uninterrupted sleep rhythm</li>
+                        <li>Experience optimal recharge and rest from a good night’s sleep</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="grid-row">
+                <div class="grid-row__L">
+                    <img class="grid-row__image lazyload" data-src="img/glass_2.jpg" alt="">
+                </div>
+                <div class="grid-row__R">
+                    <h3 class="grid-row__title">See & Perform Beyond</h3>
+
+                    <div class="grid-row__text">
+                        <p>
+                            Long-term blue light exposure can lead to serious medical conditions such as macular degeneration. Be proactive -- and help prevent this condition altogether -- by protecting your eyes everyday with glasses that can:                        </p>
+                    </div>
+                    <ul class="grid-row__list icon-list">
+                        <li>Minimize glare</li>
+                        <li>Prevent dry eyes</li>
+                        <li>Minimize eye fatigue (and possible associated headaches)</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+        <section class="section-how-it-works" id="HowItWorks">
+    <div class="container">
+        <div class="section-header section-header__light">
+            <div class="section-header__title"><h2>How It Works</h2></div>
+            <div class="section-header__subtitle">
+                <p>Our Anti-Blue Light Gaming Glasses are engineered to eliminate digital eye strain and recommended by<br>doctors to protect your vision during computer and device usage.</p>
+            </div>
+        </div>
+        <div class="steps">
+            <div class="step">
+                <div class="step__header">
+                    <picture>
+                        <source srcset="img/step1.webp" type="image/webp">
+                        <img class="step__image" src="img/step1.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="step__body">
+                    <div class="step__title">
+                        <h4>Step #1</h4>
+                    </div>
+                    <div class="step__text">
+                        <p>
+                            Wear your glasses before starting your day’s work or round of gaming.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step__header">
+                    <picture>
+                        <source srcset="img/step2.webp" type="image/webp">
+                        <img class="step__image" src="img/step2.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="step__body">
+                    <div class="step__title">
+                        <h4>Step #2</h4>
+                    </div>
+                    <div class="step__text">
+                        <p>
+                        The yellow tint in the glass lenses work immediately to deflect blue light from your screens. Colors on your screens will look different since blue light is being filtered out.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step__header">
+                    <picture>
+                        <source srcset="img/step3.webp" type="image/webp">
+                        <img class="step__image" src="img/step3.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="step__body">
+                    <div class="step__title">
+                        <h4>Step #3</h4>
+                    </div>
+                    <div class="step__text">
+                        <p>
+                        Remove your glasses after working or gaming and store them securely in their case. Blink and close your eyes for a few seconds. Feel any soreness or dryness? You shouldn’t.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+        <section class="section-reviews" id="Reviews">
+    <div class="container">
+
+        <div class="section-header">
+            <div class="section-header__title"><h2>10,000 Happy Customers (And Counting)</h2></div>
+            <div class="section-header__subtitle">
+                <p>
+                    See why so many users worldwide love their glasses and recommend them.
+                </p>
+                <p>
+                    Don’t miss the chance to snag yours while our offer lasts!
+                </p>
+            </div>
+        </div>
+
+
+        <div class="reviews">
+            <div class="reviews__header">
+
+                <div class="reviews-stats">
+                    <div class="reviews-stats__L">
+                        <div class="reviews-overall">
+                            <strong class="reviews-overall__strong">4.9</strong>
+                            <span class="reviews-overall__out-of">out of 5</span>
+                        </div>
+                        <div class="reviews-stars">
+                            <div class="stars-rating"><span style="width: 98%"/></div>
+                            <span class="reviews-count">41 customer reviews</span>
+                        </div>
+                    </div>
+                    <div class="review-stats__R">
+                        <div class="reviews-dist">
+                            <div class="reviews-dist__item">
+                                <span class="reviews-dist__label">5</span>
+                                <div class="reviews-dist__line"><span style="width:90%;"></span></div>
+                                <div class="review-dist__count">39</div>
+                            </div>
+                            <div class="reviews-dist__item">
+                                <span class="reviews-dist__label">4</span>
+                                <div class="reviews-dist__line"><span style="width:5%;"></span></div>
+                                <div class="review-dist__count">2</div>
+                            </div>
+                            <div class="reviews-dist__item">
+                                <span class="reviews-dist__label">3</span>
+                                <div class="reviews-dist__line"><span style="width:0%;"></span></div>
+                                <div class="review-dist__count">0</div>
+                            </div>
+                            <div class="reviews-dist__item">
+                                <span class="reviews-dist__label">2</span>
+                                <div class="reviews-dist__line"><span style="width:0%;"></span></div>
+                                <div class="review-dist__count">0</div>
+                            </div>
+                            <div class="reviews-dist__item">
+                                <span class="reviews-dist__label">1</span>
+                                <div class="reviews-dist__line"><span style="width:0%;"></span></div>
+                                <div class="review-dist__count">0</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <ul class="reviews__list">
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/1.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">William B., UK</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    I used to think gaming glasses were a gimmick awhile back just a way for companies
+                                    to make money. All that changed once I got a pair of Victory Series! Once I put them
+                                    on it felt like it put everything in HD. I was super impressed. For the skeptics
+                                    this is definitely a product true to their word!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/2.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">Jennie Hawkins</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    From working the esports circuits to causally gaming with friends, I’ve noticed
+                                    after wearing these my eyes don’t hurt in dark rooms with bright screens. Also once
+                                    I’m done gaming I can almost instantly fall asleep when it’s ready for bed instead
+                                    of my eyes still focused in! Plus being colorblind it helps hinder in enemies way
+                                    better with the advanced lenses compared to just normal playing. All around great
+                                    comfort, great visual enhancement, and by the gamer for the gamer company!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/3.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">Marvin Murphy</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Way more comfortable than I anticipated. I have been wearing them for 8+ hours a day
+                                    and I forget I'm even wearing them. I definitely recommend!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/4.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">Jennie Hawkins</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    I work at a desk staring and 4 screens 9-10hrs a day and I also have a sensitivity
+                                    to fluorescent lights. I used to get headaches regularly and would get dizzy when in
+                                    places with fluorescent lights such as grocery stores. I have had these glasses for
+                                    about 4 months and they have made such a huge difference! I love love love them!
+                                    They have cut my head aches way down and I don’t get dizzy from fluorescent lights
+                                    when wearing them. I have gotten 2 of my office lady’s to order a pair also since
+                                    they were having issues with headaches and they love them as well. I suggest them to
+                                    everyone. I would definitely recommend these. They are 100% worth the money.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/5.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">Juanita Simmmons</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    I love it! That’s so cool, i never thought i would be so comfy with these glasses.
+                                    No headaches anymore!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/6.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">Floyd Warren</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    These glasses are great quality for the price and definitely filter the blue light
+                                    as advertised.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/7.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">William B., UK</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Love them! Had them for 2 weeks and i can tell a huge difference. Customer service
+                                    was great. Entered wrong zipcode. Replied to confirmation email. Got back to me
+                                    within the next 2 hours. Received glasses promptly!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/8.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">Floyd Warren</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Great feel and quality!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/9.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">E****y</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Love these glasses. I wear contacts when streaming so my eyes always get irritated.
+                                    I’ve noticed less irritation while wearing these glasses. Definitely a must have if
+                                    you are in front of screens for multiple hours a day
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/10.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 80%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">F****t</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Only issue I have with them is they fit a bit tight on the bridge of the nose which
+                                    took sometime to get used to. They 100% greatly reduce eye strain. I spend upwards
+                                    of 12 hours looking at a computer monitor while I stream. Once I got off my eyes
+                                    would be super irritated. Even into the next day sometimes but with these glasses I
+                                    get none of that. Would and have recommended to everyone. Great product!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/11.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">M***k</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    After playing 6 hours of gaming noticed I had a little red eye and the next day when
+                                    i got my eye where no red eye no fatigue I felt great to lay my head down and go to
+                                    sleep with no eye strain and blurry vision! Awesome product💪
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/12.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">A****a</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    I love my glasses!🤗 Best addition to any gaming purchase! My eye strain and just
+                                    focusing issues have been less of an issue since I've been wearing blue light
+                                    filtered lenses! The designs are super cute and sleek as well!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/13.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">D********s</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    It definitely makes me feel different. I havent used them enough yet to say that
+                                    they 100% work but I see that my eyes don't hurt anymore from any kind of screen
+                                    that I have and it really eases the "pain" of the light of the screen when I'm
+                                    gaming at night. I recommend them especially to people that already have some
+                                    problems with their eyes. My eyes are perfectly healthy and I'm sure with these
+                                    glasses they are gonna keep being healthy. Thank you for this great product guys.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/14.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">G******t</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    These glasses right here are the Pinnacle of gaming glasses. I strongly recommend
+                                    picking up a pair of these glasses. They keep your eyes in check . they don't dry up
+                                    your eyes. They don't get heavy and to me thats the most important part.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/15.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">W******m</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Quality and well made product. Have already passed on the link to a few others and
+                                    their orders should already be on the way. Very happy customer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/16.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">A*****n</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    I wear them everyday and the day I forgot them before I left for work I genuinely
+                                    noticed the difference. As someone who’s spent way too much time looking at blue
+                                    light from work and recreational gaming I was starting to get blurred vision from it
+                                    and ever since I started wearing them it’s helped dramatically
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/17.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">J****y</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    I had been thinking about getting a pair as I am a developer and spend immense
+                                    amount of time in front of the screen when I came across an Instagram ad for 50% off
+                                    and thought why not! I had a great ordering experience, super fast to checkout,
+                                    delivery was extremely fast, the price was awesome. Now I can't make claims to how
+                                    much they will help with eye strain, headaches etc, yet! But they fit great and are
+                                    super comfortable plus my wife thinks they make me look sexy, so I'll take that any
+                                    day! Thanks for making a great product!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">L*******e</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    The goods arrived in perfect condition. The glasses are very good. The glasses are
+                                    perfect. I thank you for the perfect shipment!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/18.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">E*****e</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Very nice lenses, good quality, look expensive
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/19.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">C********n</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    I received the item today. The seller is an awesome person, helped me a lot to make
+                                    a decision and responded to my messages very quickly. Thanks for everything.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/20.jpg" alt="">
+                            <img class="review-image lazyload" data-src="img/reviews/20_1.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">M***k</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Blue anti-glare coating on yellow lenses is not noticeable. In general, the quality
+                                    is good, the frame is decent.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/21.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">R*****t</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Excellent! I highly recommend the seller. The glasses are beautiful! Happy for the
+                                    purchase, fast shipping.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">A*****a</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    The glasses are super, the eyes get tired really much less. I advise you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/22.jpg" alt="">
+                            <img class="review-image lazyload" data-src="img/reviews/22_1.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">J*****n</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Good glasses for their price, the eyes get tired less. The glasses themselves are
+                                    light, they do not press anywhere. Packed very well.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/23.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">M*****n</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Super glasses, perfectly packed, came very quickly. Recommend!!!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/24.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">D*****l</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Glasses are plastic, there are no scratches, came in a soft package. Let's see if
+                                    the eyes will get tired from the PC or not.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/25.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">A********o</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Happy with glasses! They look great. Buy boldly!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/26.jpg" alt="">
+                            <img class="review-image lazyload" data-src="img/reviews/26_1.jpg" alt="">
+                            <img class="review-image lazyload" data-src="img/reviews/26_2.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">M***e</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Just super for such money, took because the seller advised for the computer
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">P****r</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    very good product, arrived quickly, recommend it
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">T**m</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Good quality glasses. Packed as a crystal vase.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">J******e</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    It is beautifully designed and looks great on my face.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">N******e</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Pretty good quality for the price
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">E***c</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Very nice, will order more!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">G***r</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Delivery very faaast thanks
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/26.jpg" alt="">
+                            <img class="review-image lazyload" data-src="img/reviews/26_1.jpg" alt="">
+                            <img class="review-image lazyload" data-src="img/reviews/26_2.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">P***o</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Excellent product!!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 80%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">M*****l</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Glasses are not bad but not on a wide face
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">L**e</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Very Cool and Stylish. These Glasses are sturdy and well made and I highly recommend
+                                    them!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">V***o</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Chic glasses for your money. Eyes stopped hurting, sit well, do not interfere.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/28.jpg" alt="">
+                            <img class="review-image lazyload" data-src="img/reviews/28_1.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">M***z</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    The glasses are fine, perfectly protect the eyes and perform their function very
+                                    well. Excellent the case, it is strong and very good quality. I completely recommend
+                                    the product and store.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__image">
+                            <img class="review-image lazyload" data-src="img/reviews/29.jpg" alt="">
+                        </div>
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">M***r</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Wow! It was correctly delivered as ordered. strongly recommend this item and store.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="reviews__item review">
+                    <div class="review__inner">
+                        <div class="review__body">
+                            <div class="review__rating">
+                                <div class="stars-rating"><span style="width: 100%"/></div>
+                            </div>
+                            <div class="review__author">
+                                <span class="review-author">U***r</span>
+                            </div>
+                            <div class="review__text">
+                                <p>
+                                    Great quality, look and build is really nice! Wish i had a blue light to test, but
+                                    so far so good!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+
+            <div class="reviews__footer">
+                <a href="#" id="review-load" class="button button-blue">Show more</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+        <section class="section-faq">
+    <div class="container">
+        <div class="section-header section-header__light">
+            <div class="section-header__title"><h2>Frequently Asked Questions</h2></div>
+        </div>
+        <div class="faq-wrap">
+            <div class="faq-wrap__column">
+                <div class="faq-item">
+                    <div class="faq-item__header">
+                        <span>How much do you charge for shipping?</span>
+                    </div>
+                    <div class="faq-item__body">
+                            We provide free shipping to over 200 countries around the world*<br>
+                            *with some exceptions
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-item__header">
+                        <span>Will I be charged any shipping, customs or duties fees?</span>
+                    </div>
+                    <div class="faq-item__body">
+                            No, the price you see is the price you pay - you won't be charged any extra fees.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-item__header">
+                        <span>When will you ship my order?</span>
+                    </div>
+                    <div class="faq-item__body">
+                            If you order an in-stock item, we’ll ship it within 3 working days.
+                    </div>
+                </div>
+            </div>
+            <div class="faq-wrap__column">
+                <div class="faq-item">
+                    <div class="faq-item__header">
+                        <span>How long will my order take to arrive?</span>
+                    </div>
+                    <div class="faq-item__body">
+                            Orders are shipped by EMS or USPS. Typically, delivery takes 5-20 working days after dispatch, but it may take longer due to factors beyond our control.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-item__header">
+                        <span>Do you provide tracking information?</span>
+                    </div>
+                    <div class="faq-item__body">
+                            You will receive your tracking information within 3-5 working days. But sometimes tracking might not available if free shipping applies. In this case, please contact us at support@otakujoy.com
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-item__header">
+                        <span>Can I cancel my order?</span>
+                    </div>
+                    <div class="faq-item__body">
+                            You can change or cancel your order within 12 hours. Please contact us at support@otakujoy.com
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+        <section class="product-section">
+    <div class="container">
+
+        <div class="product-wrap product">
+
+            <div class="product-wrap__left product-wrap__block">
+
+                <div class="product-gallery swiper-container">
+                    <div class="swiper-wrapper product-gallery__wrap">
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/0.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/1.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/2.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/3.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/4.jpg" alt=""></div>
+                        <div class="product-gallery__slide swiper-slide"><img class="lazyload" data-src="img/product/5.jpg" alt=""></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="product-gallery__pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="product-gallery__prev"></div>
+                    <div class="product-gallery__next"></div>
+
+                    <div class="product-gallery__onsale">-50%</div>
+                </div>
+
+            </div>
+
+
+            <div class="product-wrap__right product-wrap__block">
+
+                <div class="product__content">
+                    <div class="product__title">
+                        <h1>Anti-blue light = your ultimate power up for gaming</h1>
+                    </div>
+                    <div class="product__description">
+                        <ul class="icon-list">
+                            <li>Block Out Blue Light</li>
+                            <li>Reduce Digital Eye Strain & Dryness</li>
+                            <li>Experience Improved Sleep</li>
+                        </ul>
+                    </div>
+                    <div class="product__options">
+
+                        <div class="product-variations">
+                            <div class="product-variations__header">
+                                Color<span class="product-variations__data-value">: Black (Clear Glass)</span>
+                            </div>
+                            <ul class="product-variations__listing">
+                                <li class="product-variations__item product-variations__active">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_0-full.jpg" data-src="img/product/_0.jpg" data-value="Black (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_1-full.jpg" data-src="img/product/_1.jpg" data-value="Matte Black (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_2-full.jpg" data-src="img/product/_2.jpg" data-value="Black/Brown (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_3-full.jpg" data-src="img/product/_3.jpg" data-value="Brown (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_4-full.jpg" data-src="img/product/_4.jpg" data-value="Blue (Clear Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_5-full.jpg" data-src="img/product/_5.jpg" data-value="Black (Yellow Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_6-full.jpg" data-src="img/product/_6.jpg" data-value="Matte Black (Yellow Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_7-full.jpg" data-src="img/product/_7.jpg" data-value="Black/Brown (Yellow Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_8-full.jpg" data-src="img/product/_8.jpg" data-value="Brown (Yellow Glass)">
+                                </li>
+                                <li class="product-variations__item">
+                                    <img class="product-variations__image lazyload" data-img="img/product/_9-full.jpg" data-src="img/product/_9.jpg" data-value="Blue (Yellow Glass)">
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="product__price product-price">
+                        <div class="product-price__new">US $27.00</div>
+                        <del class="product-price__old">US $54.00</del>
+                    </div>
+                    <div class="product__controls product-controls">
+                        <div class="product-controls__quantity">
+                            <div class="quantity">
+                                <input class="quantity__input js-quantity_input" type="number" min="1" max="999" step="1" value="1">
+                                <button type="button" class="quantity__button js-quantity_up"></button>
+                                <button type="button" class="quantity__button js-quantity_down"></button>
+
+                            </div>
+                        </div>
+                        <div class="product-controls__button">
+                            <a href="#" class="button button-red js-call-modal" data-modal-id="form">Claim my 50% discount</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+        <section class="section-guaranteed">
+    <div class="container">
+        <div class="guaranteed-wrap">
+
+            <div class="guaranteed-block">
+                <div class="guaranteed-block__L">
+                    <img data-src="img/guaranteed1.png" alt="" class="guaranteed__image lazyload">
+                </div>
+                <div class="guaranteed-block__R">
+                    <h3 class="guaranteed__title">Secure Ordering</h3>
+                    <div class="guaranteed__description">
+                            We use encrypted SSL security to ensure that your credit card information is 100% protected.
+                    </div>
+                </div>
+            </div>
+
+            <div class="guaranteed-block">
+                <div class="guaranteed-block__L">
+                    <img data-src="img/guaranteed2.png" alt="" class="guaranteed__image lazyload">
+                </div>
+                <div class="guaranteed-block__R">
+                    <h3 class="guaranteed__title">Secure Ordering</h3>
+                    <div class="guaranteed__description">
+                        We’re confident you’ll love these glasses. If they don’t work for you, no worries - we’ll refund you (no questions asked).
+                    </div>
+                </div>
+            </div>
+
+            <div class="guaranteed-block">
+                <div class="guaranteed-block__L">
+                    <img data-src="img/guaranteed3.png" alt="" class="guaranteed__image lazyload">
+                </div>
+                <div class="guaranteed-block__R">
+                    <h3 class="guaranteed__title">Quality You Can See</h3>
+                    <div class="guaranteed__description">
+                        Our glasses are of the highest craftsmanship for quality and durability you can be confident with.
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="section-payments">
+    <div class="container">
+        <div class="payments">
+            <div class="payments__label">We Accept:</div>
+            <div class="payments__icon"><img class="lazyload" data-src="img/svg/visa.svg" alt=""></div>
+            <div class="payments__icon"><img class="lazyload" data-src="img/svg/mc.svg" alt=""></div>
+            <div class="payments__icon"><img class="lazyload" data-src="img/svg/ms.svg" alt=""></div>
+            <div class="payments__icon"><img class="lazyload" data-src="img/svg/as.svg" alt=""></div>
+            <div class="payments__icon"><img class="lazyload" data-src="img/svg/discover.svg" alt=""></div>
+            <div class="payments__icon"><img class="lazyload" data-src="img/svg/pp.svg" alt=""></div>
+        </div>
+    </div>
+</section>
+        <footer class="footer">
+    <section class="footer-top">
+        <div class="container">
+            <div class="footer-top__wrap">
+                <span>6 Jenner Suite 260 Irvine CA, 92618</span>
+                <span>support@otakujoy.com</span>
+                <span>+1 917 993 7297</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <ul class="footer__menu">
+            <li><a class="js-call-modal" data-modal-id="privacy" href="#">Privacy</a></li>
+            <li><a class="js-call-modal" data-modal-id="returns" href="#">Returns</a></li>
+            <li><a class="js-call-modal" data-modal-id="terms" href="#">Terms</a></li>
+            <li><a class="js-call-modal" data-modal-id="shipping" href="#">Shipping</a></li>
+        </ul>
+        <div class="footer-bottom">
+            <span class="footer-copyright">© 2020. All Rights Reserved.</span>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <div class="modal">
+        <div class="modal__body">
+            <div class="modal__close"></div>
+            <div class="modal__C" data-id="privacy">
+                <h2 class="modal__title">Privacy Policy</h2>
+
+                <p>otakujoy.com is compliant with The General Data Protection Regulation (GDPR) (EU) 2016/679.</p>
+
+                <p>It means that we are open about our methods of tracking and use of the visitors’ personal data, and you
+                    can freely check what exactly we’re doing to it.</p>
+
+                <p>
+                    At otakujoy.com, we collect:
+                </p>
+                <ul>
+                    <li>Your name and surname</li>
+                    <li>Your email address</li>
+                    <li>Your physical address</li>
+                    <li>Your phone number</li>
+                    <li>The data about the browser and device you use to view the store</li>
+                    <li>The way you navigate the store </li>
+                </ul>
+
+                <p>
+                    We gather your contact details because they are necessary to accept and process your orders, and to make
+                    sure you’ve got your packages.
+                </p>
+                <p>
+                    We gather the details of your technical equipment and on-site behavior in order to make our store more
+                    user-friendly, and to personalize our store services for you (for example, to automatically switch the
+                    store to the mobile version.)
+                </p>
+                <p>
+                    Our store works with outer companies that help us provide the best service for you, and these third
+                    parties also use some of the personal details you’re leaving. We limit the data they can access to only
+                    what is necessary for them to perform their obligations.
+                </p>
+                <ul>
+                    <li>Payment services use your credit card number, your name and surname to verify and process your
+                        payments for our products
+                    </li>
+                    <li>Our manufacturers and stock keepers use the data of your order contents to assemble the necessary
+                        package for you
+                    </li>
+                    <li>Postal services use your first name, last name, and physical address to arrange the product delivery
+                        for you
+                    </li>
+                    <li>Mass mailing services use your email address to send you emails (if you have subscribed for them)
+                    </li>
+                </ul>
+
+                <p>
+                    If you keep browsing our webstore after reading this Privacy Policy, you give us the consent to use your
+                    personal details for the purposes explained above.
+                </p>
+                <p>
+                    If you don’t agree to these terms, please leave the website.
+                </p>
+                <p>
+                    You can email us at support@otakujoy.com and ask:
+                </p>
+                <ul>
+                    <li>To receive the copy of your personal details we have collected</li>
+                    <li>To delete your personal details from our system</li>
+                    <li>To withdraw your consent (if you previously agreed to provide us with the data, but then changed
+                        your mind)
+                    </li>
+                </ul>
+                <p>
+                    We are doing our best to guarantee the security of your personal details while keeping and using them.
+                </p>
+                <p>
+                    Thank you for your cooperation!
+                </p>
+
+            </div>
+
+
+            <div class="modal__C" data-id="returns">
+                <h2 class="modal__title">Refunds & Returns Policy</h2>
+
+                <h4>Order cancellation</h4>
+                <p>
+                    All orders can be canceled until they are shipped. If your order has been paid and you need to change or cancel it, please contact us within 12 hours.
+                </p>
+                <h4>Refunds</h4>
+                <p>
+                    Your satisfaction is our #1 priority. We want you to shop with confidence. That’s why we proudly offer an absolute satisfaction guarantees that ensure you’ll receive your item on time and as described.
+                </p>
+                <p>
+                    Our highest priority is to make you happy, so everyone who shops on otakujoy.com receives the following guarantees:
+                <ul>
+                    <li>full refund if you don’t receive your order;</li>
+                    <li>full refund if your order does not arrive within the guaranteed time (45 business days not including 2-5 business days processing);</li>
+                    <li>full or partial refund if the item is not as described;</li>
+                </ul>
+                </p>
+
+                <p>
+                    Full refunds are not available under the following circumstances:
+                <ul>
+                    <li>your order does not arrive due to factors within your control (e.g. providing the wrong shipping address)</li>
+                    <li>your order does not arrive due to exceptional circumstances outside our control (e.g. not cleared by customs, delayed by a natural
+                        disaster).</li>
+                </ul>
+                </p>
+                <p>
+                    All our products are backed with 60-day money back guarantee. Just send us a message on Contact Us page or contact us at support@otakujoy.com and we will refund the purchase price.
+                </p>
+                <h4>Easy Returns</h4>
+                <p>
+                    All our products are backed with 60-day money back guarantee. Just contact us and we will refund the purchase price.
+                </p>
+                <p>
+                    We stand behind everything we sell. If you are not satisfied with your purchase, you can return it for a replacement or refund. No questions asked! You only should return it at your expense.
+                </p>
+                <p>
+                    Please contact us first and we will guide you through the steps. We are always ready to give you the best solutions!
+                </p>
+                <p>
+                    Please do not send your purchase back to us unless we authorize you to do so.
+                </p>
+            </div>
+
+            <div class="modal__C" data-id="terms">
+                <h2 class="modal__title">Terms and Conditions</h2>
+
+                <p>We provide services to you subject to the notices, terms, and conditions set forth in this agreement. Besides, you will obey the rules, guidelines, policies, terms, and conditions applicable to such services before you use them. We reserve the right to change this site and these terms and conditions at any time.</p>
+                <p>Before proceeding, please read this agreement because accessing, browsing, or otherwise using the Site indicates your agreement to all the terms and conditions in this agreement.</p>
+                <p>You shall not upload, distribute, or otherwise publish through this Site any Content, information, or other material that (a) includes any bugs, viruses, worms, trap doors, Trojan horses, or other harmful code or properties; (b) is libelous, threatening, defamatory, obscene, indecent, pornographic, discriminatory, or could give rise to any civil or criminal liability under the laws of the U.S. or the laws of any other country that may apply; or (c)violates or infringes upon the copyrights, patents, trademarks, service marks, trade secrets, or other proprietary rights of any person.  otakujoy.com may give you an account identification and password to enable you to access and use certain portions of this Site. Each time you use a password or identification, you are deemed to be authorized to access and use the Site in a manner consistent with the terms and conditions of this agreement, and  otakujoy.com has no obligation to investigate the source of any such access or use of the Site.</p>
+                <p>By accepting these Terms of Use through your use of the Site, you certify that you are 18 years of age or older. If you are under 18 years old please use this Site only under the supervision of a parent or legal guardian. Subject to the terms and conditions of this agreement, hereby grants you a limited, revocable, non-transferable, and non-exclusive license to access and use the Site by displaying it on your Internet browser only for the purpose of shopping and not for any commercial use or use on behalf of any third party, except as explicitly permitted by  otakujoy.com in advance. Any violation of this Agreement shall result in the immediate revocation of the license granted in this paragraph without notice to you.</p>
+                <p>Unless explicitly permitted by our company in advance, all materials, including images, text, illustrations, designs, icons, photographs, programs, music clips or downloads, video clips and written and other materials that are part of this Site (collectively, the “Contents”) are intended solely for personal, non-commercial use. You may not make any commercial use of any of the information provided on the Site or make any use of the Site for the benefit of another business. We reserve the right to refuse service, terminate accounts, and/or cancel orders in its discretion, including, without limitation, if we believe that customer conduct violates applicable laws or is harmful to our interests. You may not reproduce, distribute, display, sell, lease, transmit, create derivative works from, translate, modify, reverse-engineer, disassemble, decompile, or otherwise exploit this Site or any portion of it unless expressly permitted by our company in writing.</p>
+                <p>You will be solely responsible for all access to and use of this site by anyone using the password and identification originally assigned to you whether or not such access to and use of this site is actually authorized by you, including without limitation, all communications and transmissions and all obligations (including without limitation financial obligations) incurred through such access or use. You are solely responsible for protecting the security and confidentiality of the password and identification assigned to you. You shall immediately notify  otakujoy.com of any unauthorized use of your password or identification or any other breach or threatened breach of this Site’s security.</p>
+
+            </div>
+
+            <div class="modal__C" data-id="shipping">
+                <h2 class="modal__title">Shipping & Delivery</h2>
+
+                <h4>Free shipping</h4>
+                <p>We are glad to bring our customers great value and service. That’s why we provide free shipping from our warehouses in China by ePacket or EMS and in USA by USPS.</p>
+                <h4>Shipping to over 200 countries</h4>
+                <p>We are proud to offer international shipping services. However, there are some locations we are unable to ship to. If you happen to be from one of those countries we will contact you.</p>
+                <h4>Customs</h4>
+                <p>We are not responsible for any custom fees once the items have shipped. By purchasing our products, you consent that one or more packages may be shipped to you and may get custom fees when they arrive to your country.</p>
+                <h4>Shipping time</h4>
+                <p>Shipping time varies by location. These are our estimates:</p>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>*Estimated Shipping Time</th>
+                    </tr>
+                    </thead>
+                    <tbody><tr>
+                        <td>United States</td>
+                        <td>10-30 Business days</td>
+                    </tr>
+                    <tr>
+                        <td>Canada, Europe</td>
+                        <td>10-30 Business days</td>
+                    </tr>
+                    <tr>
+                        <td>Australia, New Zealand</td>
+                        <td>10-30 Business days</td>
+                    </tr>
+                    <tr>
+                        <td>Mexico, Central America, South America</td>
+                        <td>15-30 Business days</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>Max delivery time – 45 business days.<br>
+                    <i>*This doesn’t include our 2-5 day processing time</i></p>
+                <h4>Tracking information</h4>
+                <p>You will receive an email with a tracking number once your order is shipped but sometimes due to free shipping tracking is not available. For logistical reasons, items in the same purchase may be sent in separate packages even if you’ve specified combined shipping.</p>
+                <p>If you have any other questions, please contact us and we will do our best to help you out.</p>
+
+            </div>
+
+            <div class="modal__video" data-id="video">
+                Место для видео
+            </div>
+
+
+            <div class="modal__form" data-id="form">
+
+                <form class="modal-form" method="post" action="/">
+                    <div class="modal-form__header">
+                        Enter your email below to get your exclusive<br>
+                        Anti-Blue Light Gaming Glasses
+                    </div>
+                    <div class="modal-form__body">
+                        <input class="input" type="email" name="email" placeholder="Email for order confirmation">
+                        <button class="button button-blue button-mini js-form-button" type="submit">Continue to Shipping</button>
+                    </div>
+                    <div class="modal-form__footer">
+                        <i>We hate spam and promise to keep your email address safe</i>
+                    </div>
+                </form>
+
+            </div>
+
+
+        </div>
+        <div class="modal__overlay"></div>
+    </div>
+
+        <script src="js/main.min.js"></script>
+        <script src="js/vendor.min.js"></script>
+    </body>
 </html>
